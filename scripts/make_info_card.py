@@ -4,15 +4,17 @@ from html import escape
 from pathlib import Path
 
 USER = "uday@github"
-# TODO: replace placeholders. Values over ~44 chars run off the card.
+# Values over ~44 chars run off the card.
 LINES = [
-    ("Now", "<school / role> · Summer 2027 intern"),
-    ("Prev", "<previous role / project>"),
-    ("Stack", "Python · TypeScript · SQL · <add yours>"),
-    ("Focus", "<what you're building or learning>"),
-    ("Highlights", "<a number or win you're proud of>"),
-    ("", "<another highlight>"),
-    ("Contact", "<email / site / LinkedIn>"),
+    ("Name", "Uday Jain"),
+    ("Now", "Penn State · seeking Summer '27"),
+    ("Stack", "Python · TypeScript · Swift · MATLAB"),
+    ("Quant", "paper-trading model · auto-IPO investing"),
+    ("Auto", "vehicle dynamics sim · Nittany Motorsports"),
+    ("Apps", "falcon-ai · FoxFitHacker (iOS)"),
+    ("Hackathon", "NakedProfessor · Ace Behrend hackathon"),
+    ("Open to", "SWE · quant · EV/auto · US + global hubs"),
+    ("Contact", "uday.jain.2102@gmail.com"),
 ]
 KEY_COLOR, VAL_COLOR = "#39d353", "#c9d1d9"
 W, LH, TOP = 490, 26, 70
