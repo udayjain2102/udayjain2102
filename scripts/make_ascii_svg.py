@@ -63,4 +63,4 @@ if __name__ == "__main__":
         sys.exit(__doc__)
     lines = to_ascii(prep(sys.argv[1]))
     (Path(__file__).resolve().parent.parent / "ascii.svg").write_text(svg(lines))
-    print("wrote ascii.svg — now uncomment the portrait <td> in README.md")
+    print("wrote ascii.svg — add it to README.md next to info-card.svg")
