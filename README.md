@@ -1,6 +1,5 @@
 <div align="center">
 
-<h3><code>uday@github ~ $ ./contributions.sh</code></h3>
 <img src="./contrib-heatmap.svg" width="860" alt="Contribution graph" />
 
 <br><br>
